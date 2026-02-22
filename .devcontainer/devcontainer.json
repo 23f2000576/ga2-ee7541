@@ -1,6 +1,5 @@
 {
   "name": "ga2-ee7541",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {}
   },
@@ -12,5 +11,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install fastapi"
+  "postCreateCommand": "uv pip install fastapi --system"
 }
